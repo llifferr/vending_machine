@@ -1,0 +1,81 @@
+.product-form-input-label {
+  color: white;
+  font-size: 12px;
+}
+
+.product-form-input-label-input-field {
+  max-width: 80%;
+}
+
+.product-form-form {
+  margin-top: 1rem;
+}
+
+.product-form-coins {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-form-current-value {
+  margin-top: 1rem;
+  display: block;
+  background-color: chartreuse;
+  color: black;
+}
+
+.product-form-coin {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0.25rem;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  user-select: none;
+}
+
+@media screen and (max-width: 500px) {
+  .product-form-coin {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.product-form-coin:hover {
+  background-color: wheat;
+}
+
+.product-form-ok-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.product-form-ok {
+  background-color: rgb(4, 199, 4);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 8px;
+}
+
+.product-form-ok:hover {
+  background-color: rgb(0, 135, 0);
+}
+.product-form-reset-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.product-form-reset {
+  background-color: yellow;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 8px;
+}
+.product-form-change {
+  cursor: pointer;
+}
